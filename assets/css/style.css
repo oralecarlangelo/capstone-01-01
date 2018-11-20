@@ -1,5 +1,6 @@
 *{
 	scroll-behavior: smooth;
+	font-family: 'Roboto Slab', serif;
 }
 
 #home-landing{
@@ -126,7 +127,9 @@
 	color: white;
 }
 
-
+.embed-responsive{
+	border: 1px solid black;
+}
 
 
 
