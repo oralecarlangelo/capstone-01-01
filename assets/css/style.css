@@ -1,0 +1,164 @@
+*{
+	scroll-behavior: smooth;
+}
+
+#home-landing{
+	/*background-color: #333;*/
+	color: #fff;
+	padding: 20%;
+	background-image: url(../images/home.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.item-img{
+	background-size: cover;
+}
+
+#navbar{
+	background-color: #333333;
+}
+
+#carousel-home{
+	height: 100vh;
+}
+
+#carousel-home img{
+	height: 100vh;
+	max-height: 100vh;
+}
+
+#home-landing > h1{
+    text-shadow: 1px 1px 1px #000000;
+}
+#home-landing > p{
+  text-shadow: 1px 1px 1px #000000;
+}
+
+#home-landing > hr{
+  text-shadow: 1px 1px 1px #000000;	
+}
+
+.bg-4{ 
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#services{
+	height: 100vh;
+	padding-top: 80px;
+	background: url(../images/services-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.card-img-top{
+	border-bottom: 1px solid black;
+	height: 300px;
+	width: 100%; 
+	background-color: white;
+	opacity: .6;
+}
+
+.card-img-top:hover{
+	opacity: 1;
+}
+
+.card
+{
+	border: 1px solid black;
+	background-color:rgba(0,0,0,0.3);
+}
+
+.card-body{
+	/*background-color: black; */
+	/*background-color:rgba(0,0,255,0.1);*/
+}
+
+.card-title{
+	color: white;
+
+}
+ .card-text{
+ 	color: white;
+ }
+
+#about-us > h4{
+	text-shadow: 1px 1px 1px #000000;
+}
+
+#about-us > p{
+	text-shadow: 1px 1px 1px #000000;	
+}
+#about-us > hr{
+	color: white;
+	text-shadow: 1px 1px 1px #000000;	
+}
+
+
+.footer{
+	padding: 10px;
+}
+
+#about-us{
+	padding: 10px;
+	background: url(../images/about-us.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.about-container{
+	background-color: rgba(0,0,0,0.2);	
+	color: white;
+}
+
+#contact-us{
+	height: 100vh;
+	padding: 10px;
+	background: url(../images/contact.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.contact-container{
+	background-color: rgba(0,0,0,0.2);	
+	color: white;
+}
+
+
+
+
+
+/*TIMELINE*/
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
