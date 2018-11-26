@@ -45,6 +45,14 @@
     color: #ffffff;
 }
 
+div > .card{
+	height: 90%;
+}
+
+#services > .row{
+	height: 80%;
+}
+
 #services{
 	height: 100vh;
 	padding-top: 80px;
@@ -55,7 +63,7 @@
 
 .card-img-top{
 	border-bottom: 1px solid black;
-	height: 300px;
+	height: 50%;
 	width: 100%; 
 	background-color: white;
 	opacity: .6;
@@ -78,6 +86,7 @@
 
 .card-title{
 	color: white;
+	font-size: 20px;
 
 }
  .card-text{
@@ -309,7 +318,7 @@ body{
 	text-decoration: none;
 }
 
-#top:hover, a:visited, a:link, a:active, h1
+#top:hover, a:visited, a:link, a:active,
 {
     text-decoration: none;
 }
@@ -362,4 +371,22 @@ body{
   	text-align: center;
   	width: 130px;
 	padding: 10px;
+}
+
+@media (min-width: 576px) { 
+	#carousel-home{
+	height: 100%;
+}
+	#services{
+		height: 100%;	
+	}
+}
+
+@media (min-width: 992px) { 
+	#carousel-home{
+	height: 100%;
+	}
+		#services{
+		height: 100%;	
+	}
 }
