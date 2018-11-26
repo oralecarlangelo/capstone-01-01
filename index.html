@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8"></meta>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
@@ -9,22 +9,240 @@
 	<!-- fontawesom icons -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 	<!-- bootstrap css -->
 
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<!-- fav icon -->
+	<link rel="icon" type="image/gif/png" href="assets/images/icon.png">
 	<!-- animated -->
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 	<!-- external css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	
+
+	<div class="container-fluid px-0">
+		<div id="home-landing" class="text-center jumbotron">
+			<h1 class="display-3 ">Welcome to Byahe.ph</h1>
+			<hr class="my-3">
+			<p>"One step access to your next dream vacation"</p>
+			<form action="#carousel-home">
+				<button class="btn btn-outline-secondary">Go to Home</button>
+			</form>
+			<!-- <a href="#carousel-home" class="btn btn-block" style="margin-top: 5px;">Go to Home</a> -->
+		</div>
+		<nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-dark ">
+				<a class="navbar-brand" href="#">
+				<i class="far fa-hand-peace"> Byahe.ph</i>			
+				</a>		
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+					<span  class="navbar-toggler-icon"></span>
+				</button>	
+
+				<div id="navbar-nav" class="collapse navbar-collapse">
+					<ul class="compact navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#carousel-home" >Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#services" >Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about-us" ">About</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#contact-us">Contact Us</a>
+						</li>		
+						<li class="nav-item">
+							<a class="nav-link" href="tours.html">Tours</a>
+						</li>
+						<li class="nav-item">
+							<div class="dropdown">
+								<button class="btn btn-outline-danger dropdown-toggle" data-toggle="dropdown">Register</button>
+									<div class="dropdown-menu">
+										<a href="#" class="dropdown-item">Username</a>
+										<a href="#" class="dropdown-item">Password</a>
+										<a href="#" class="dropdown-item">Login</a>
+									</div>
+							</div> <!-- end of dropdown -->
+						</li>
+					</ul>
+
+				</div> <!-- end navbar nav -->
+			</nav> <!-- end nav -->
+			
+				<div id="carousel-home" class="carousel slide" data-ride ="carousels">
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-home" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-home" data-slide-to="1"></li>
+						<li data-target="#carousel-home" data-slide-to="2" ></li>
+					</ol>
+					
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<h1 class="carousel-content">Boracay, Philippines</h1>
+							<img class="item-img d-block img-fluid w-100" src="assets/images/boracay.jpg">				
+						</div>		
+						<div class="carousel-item">
+							<h1 class="carousel-content">El Nido Palawan, Philippines</h1>
+							<img class="item-img d-block img-fluid w-100" src="assets/images/elnido.jpg">			
+						</div>		
+						<div class="carousel-item">
+							<h1 class="carousel-content">Cebu, Philippines</h1>
+							<img class="item-img d-block img-fluid w-100" src="assets/images/cebu.jpg">			
+						</div>	
+						<a class="carousel-control-prev" href="#carousel-home" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carousel-home" role="button" data-slide="next">
+							<span class="carousel-control-next-icon"></span>
+							<span class="sr-only">Next</span>
+						</a>		
+					</div> <!-- end of carousel inner -->
+				</div><!-- end of carousel home -->
+			
+
+			<div id="services" class="container-fluid">
+				<div class="row">
+					<div class="col-12 col-md-4 col-lg-4">
+						<div class="card">
+							<img class="card-img-top img-fluid" src="assets/images/airplane.jpg">
+								<div class="card-body">
+								<h3 class="card-title">Air Booking</h3>
+								<p class="card-text">We will be booking your Airplane Tickets</p>
+								<a href="#" class="btn btn-primary">Details</a>
+							</div>
+						</div> <!-- end of card -->
+					</div> <!-- end of column -->					
+					<div class="col-12 col-md-4 col-lg-4">
+						<div class="card">
+							<img class="card-img-top img-fluid" src="assets/images/bus.jpg">
+								<div class="card-body">
+								<h3 class="card-title">Land Booking</h3>
+								<p class="card-text">We will be booking your Land Transportation</p>
+								<a href="#" class="btn btn-primary">Details</a>
+							</div>
+						</div> <!-- end of card -->
+					</div> <!-- end of column -->					
+					<div class="col-12 col-md-4 col-lg-4">
+						<div class="card">
+							<img class="card-img-top img-fluid" src="assets/images/hotel.png">
+								<div class="card-body">
+								<h3 class="card-title">Hotel Booking</h3>
+								<p class="card-text">We will be booking your Hotel Reservations</p>
+								<a href="#" class="btn btn-primary">Details</a>
+							</div>
+						</div> <!-- end of card -->
+					</div> <!-- end of column -->
+				</div> <!-- end of row -->
+			</div> <!-- end of about-us container -->
+
+			<div id="about-us" class="container-fluid">
+				<div class="about-container jumbotron text-center">
+					<h1 class="display-3">About Us</h1>
+					<hr>
+					<!------ Include the above in your HEAD tag ---------->
+
+					<div class="container mt-5 mb-5">
+						<div class="row">
+							<div class="col-md-6 offset-md-3">					
+								<ul class="timeline">
+									<li>
+										<h4>Mission</h4>
+										<p>To provide world class platform in travel bookings online that is free of access to everyone.</p>
+									</li>
+									<li>
+										<h4>Vision</h4>
+										<p>To become the biggest online travel agency in the Philippines.</p>
+									</li>
+									<li>
+										<h4>Core Values</h4>
+										<p>We in Byahe.ph will be serving all our users with passion and respect.<p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div> <!-- end of about-container -->
+			</div> <!-- end of about-us -->
+
+			<div id="contact-us" class="container-fluid">
+				<div class="about-container jumbotron">
+					<h1 class="text-center py-3">Contact Us Page</h1>
+					<hr>
+					<div class="row">
+						<div class="col-12 col-md-6 col-lg-6">
+							<form>
+								<div class="form-group">
+									<label for="username">Username:</label>
+									<input id="username" class="form-control" type="text" name="" placeholder="Enter Your Username Here">
+								</div> <!-- end of username form group -->
+								<div class="form-group">
+									<label for="email">Email:</label>
+									<input id="email" class="form-control" type="email" name="" placeholder="Enter Your Email Here">
+								</div> <!-- end of email form group -->
+								<div class="form-group">
+									<label for="contact">Contact Number:</label>
+									<input id="contact" class="form-control" type="number" name="" placeholder="Enter Your Contact Details Here">
+								</div> <!-- end of contact number form group -->
+								<div class="form-group">
+									<label for="message">Message:</label>
+									<textarea id="message" class="form-control" name="" placeholder="Enter Your Message Here"></textarea>
+								</div> <!-- end of username form group -->
+								<button class="btn btn-block btn-success">Submit</button>
+							</form>
+						</div><!-- end of left side -->	
+
+						<div class="col-12 col-md-6 col-lg-6">
+							<div class="embed-responsive embed-responsive-4by3">
+								<iframe class=map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.7322816548008!2d121.03122371438788!3d14.557296282040195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c901e242f095%3A0xcbab77db1aac9063!2sENZO+BUILDING!5e0!3m2!1sen!2sph!4v1542700143085" width="600" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+							</div>
+						</div><!-- end of right side -->
+					</div> <!-- end of row -->
+				</div>
+			</div>
+
+
+			<footer class="footer bg-4 text-center container-fluid">
+				<div class="row">
+				    <div class="col-sm">
+				    	<ol class="list-unstyled"">
+				    		<li><a href="#">Home</a></li>
+					  	  	<li><a href="#">About Us</a></li>
+					      	<li><a href="#">Contact</a></li>			     
+				    	</ol>
+				    </div>
+				    <div class="col-sm">
+				    	<ol class="list-unstyled"">
+				    		<li><a href="#">Link 1</a></li>
+					  	  	<li><a href="#">Link 2</a></li>
+					      	<li><a href="#">Link 3</a></li>			     
+				    	</ol>
+				    </div>
+				    <div class="col-sm">
+				    	<ol class="list-unstyled"">
+				    		<li><a href="#">Link 1</a></li>
+					  	  	<li><a href="#">Link 2</a></li>
+					      	<li><a href="#">Link 3</a></li>		     
+				    	</ol>
+				    </div>
+			  	</div>
+  				<p>&copy; Copyright of Byahe.ph 2018</p> 
+			</footer> <!-- end of footer -->
+		</div> <!-- end of fluid-->
+
 	<!-- Optional JavaScript -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="assets/js/jquery-3.3.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
-</body>
+
+	<script src="assets/js/script.js"></script>
+	</body>
 </html>
